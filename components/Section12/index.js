@@ -56,7 +56,7 @@ const Wrap = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  padding: 40px 20px;
+  padding: 80px 20px;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
