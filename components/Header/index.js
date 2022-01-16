@@ -84,7 +84,7 @@ const Container = styled.div`
   z-index: 1;
 `;
 const DoubleContainer = styled.div`
-  width: 75%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
