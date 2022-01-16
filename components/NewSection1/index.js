@@ -68,7 +68,13 @@ const TextImage = styled.div`
 `;
 
 const ForButton = styled.div`
-  background: linear-gradient(90deg, #60cfff 0%, #0090bd 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 115, 235, 1) 0%,
+    rgba(5, 12, 44, 1) 33%,
+    rgba(5, 12, 44, 1) 67%,
+    rgba(86, 231, 229, 1) 100%
+  );
   color: white;
   display: flex;
   justify-content: center;
