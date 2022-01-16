@@ -112,7 +112,7 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/bg-roadmap.png");
+  background-image: url("/images/roadmap-bg-2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
