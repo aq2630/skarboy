@@ -1,0 +1,56 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.accordionWrapper + * {
+  margin-top: 0.5em;
+}
+
+.accordionItem {
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
+}
+
+.accordionItem.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordionTitle {
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  padding: 1.5em 1.5em;
+  border: solid 1px #37373e;
+  border-radius: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f26;
+}
+.accordionTitle.open::after {
+  content: "";
+}
+
+.accordionTitle:hover,
+.accordionTitle.open {
+  color: white;
+}
+
+.accordionTitle::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/plus_icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accordionContent {
+  padding: 1em 1.5em;
+  color: white;
+}
