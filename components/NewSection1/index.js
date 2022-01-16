@@ -35,7 +35,7 @@ const Wrap = styled.div`
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-image: url("/images/bg2.jpg");
+  background-image: url("/images/bg-main.jpeg");
   background-size: cover;
   position: relative;
   @media (max-width: 1100px) {
@@ -111,7 +111,13 @@ const ForButton = styled.div`
     transition: 0.5s;
   }
   &:hover {
-    background: linear-gradient(90deg, #0090bd 0%, #60cfff 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(234, 115, 235, 1) 0%,
+      rgba(5, 12, 44, 1) 33%,
+      rgba(5, 12, 44, 1) 67%,
+      rgba(86, 231, 229, 1) 100%
+    );
     transition: 0.5s;
   }
 `;

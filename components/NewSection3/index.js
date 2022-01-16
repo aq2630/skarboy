@@ -67,7 +67,7 @@ const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/bg-banner-v12.jpg");
+  background-image: url("/images/bg-community.jpeg");
   position: relative;
   padding: 40px 0;
   @media (min-width: 960px) {

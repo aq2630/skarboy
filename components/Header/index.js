@@ -35,7 +35,7 @@ function Header() {
     <Container>
       <DoubleContainer>
         <a>
-          <img width="80%" src="/images/logo-meta-hd.png" />
+          <img width="80%" src="/images/logo-meta-hd_1.png" />
         </a>
         <Menu>
           {sections &&

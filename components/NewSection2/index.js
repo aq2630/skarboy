@@ -77,7 +77,7 @@ const Wrap = styled.div`
   background-position: 50% 11%;
   background-repeat: no-repeat;
   display: flex;
-  background-image: url("/images/bg4.jpg");
+  background-image: url("/images/bg-about.jpeg");
   position: relative;
   padding: 40px 0;
   @media (min-width: 960px) {
