@@ -59,7 +59,7 @@ function Header() {
           {sections &&
             sections.map((section, index) => (
               <li key={`navItem-${index}`}>
-                <a key={index} href="#">
+                <a key={index} href={`#${section.id}`}>
                   {section.name}
                 </a>
               </li>

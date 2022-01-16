@@ -13,93 +13,91 @@ function NewSection5({
 }) {
   return (
     <Wrap id="roadmap" bgImage={backgroundImg} colory={color}>
-      <Fade bottom>
-        <TextImage>
-          <h1>RoadMap</h1>
-          <CompleteMap>
-            <div className={styles.lineUpContentCircle}>
-              <div className={styles.lineUpContentCircleInner}></div>
-            </div>
-            <DetailsOnly>
-              <h2>01</h2>
-              <h3>Monkeys are Born</h3>
-              <p>
-                The community always comes first. The goal with this project is
-                to provide as much value as possible so that you get the
-                greatest return on your investment. We will be announcing the
-                drop release date once we are fully satisfied with all parts of
-                the project. We want to make sure we provide as much as we can
-                to the community even before our release. Once we are satisfied,
-                the beautiful 3D Metaversity Monkeys will come to life.
-              </p>
-            </DetailsOnly>
-          </CompleteMap>
-          <CompleteMap>
-            <div className={styles.lineUpContentCircle}>
-              <div className={styles.lineUpContentCircleInner}></div>
-            </div>
-            <DetailsOnly>
-              <h2>02</h2>
-              <h3>Metaverse University</h3>
-              <p>
-                We are committed to helping the community to the fullest. We
-                will be bringing together a community of hustlers through
-                various media. This will be offered exclusively to The Metaverse
-                University students where each NFT holder will gain full access
-                to private seminars, events, courses, mentorship and even
-                university parties!
-              </p>
-            </DetailsOnly>
-          </CompleteMap>
-          <CompleteMap>
-            <div className={styles.lineUpContentCircle}>
-              <div className={styles.lineUpContentCircleInner}></div>
-            </div>
-            <DetailsOnly>
-              <h2>03</h2>
-              <h3>Monkey Madness</h3>
-              <p>
-                Our goal is to show that an investment in a monkey will be
-                extremely profitable for you even in the long term. As we
-                continue to expand, we plan on hosting events across the world
-                and doing promotions with massive celebrities. You will be part
-                of an exclusive club (or should we say University).
-              </p>
-            </DetailsOnly>
-          </CompleteMap>
-          <CompleteMap>
-            <div className={styles.lineUpContentCircle}>
-              <div className={styles.lineUpContentCircleInner}></div>
-            </div>
-            <DetailsOnly>
-              <h2>04</h2>
-              <h3>Metaversity Merch and Private Party</h3>
-              <p>
-                We will release our first merch collection of the Metaversity
-                Monkeys that will be available only for the holder. To celebrate
-                the achievement of our goals, we are going to organize a private
-                party for our holders, where the community chooses the location.
-              </p>
-            </DetailsOnly>
-          </CompleteMap>
-          <CompleteMap>
-            <div className={styles.lineUpContentCircle}>
-              <div className={styles.lineUpContentCircleInner}></div>
-            </div>
-            <DetailsOnly>
-              <h2>05</h2>
-              <h3>MetaverCity</h3>
-              <p>
-                We have already purchased a small plot of land in Decentraland
-                for our community. As our community continues to grow, we will
-                expand our virtual real estate in various metaverses and build
-                the MetaverCity. Eventually we will begin hosting events in the
-                Metaverse.
-              </p>
-            </DetailsOnly>
-          </CompleteMap>
-        </TextImage>
-      </Fade>
+      <TextImage>
+        <h1>RoadMap</h1>
+        <CompleteMap>
+          <div className={styles.lineUpContentCircle}>
+            <div className={styles.lineUpContentCircleInner}></div>
+          </div>
+          <DetailsOnly>
+            <h2>01</h2>
+            <h3>Monkeys are Born</h3>
+            <p>
+              The community always comes first. The goal with this project is to
+              provide as much value as possible so that you get the greatest
+              return on your investment. We will be announcing the drop release
+              date once we are fully satisfied with all parts of the project. We
+              want to make sure we provide as much as we can to the community
+              even before our release. Once we are satisfied, the beautiful 3D
+              Metaversity Monkeys will come to life.
+            </p>
+          </DetailsOnly>
+        </CompleteMap>
+        <CompleteMap>
+          <div className={styles.lineUpContentCircle}>
+            <div className={styles.lineUpContentCircleInner}></div>
+          </div>
+          <DetailsOnly>
+            <h2>02</h2>
+            <h3>Metaverse University</h3>
+            <p>
+              We are committed to helping the community to the fullest. We will
+              be bringing together a community of hustlers through various
+              media. This will be offered exclusively to The Metaverse
+              University students where each NFT holder will gain full access to
+              private seminars, events, courses, mentorship and even university
+              parties!
+            </p>
+          </DetailsOnly>
+        </CompleteMap>
+        <CompleteMap>
+          <div className={styles.lineUpContentCircle}>
+            <div className={styles.lineUpContentCircleInner}></div>
+          </div>
+          <DetailsOnly>
+            <h2>03</h2>
+            <h3>Monkey Madness</h3>
+            <p>
+              Our goal is to show that an investment in a monkey will be
+              extremely profitable for you even in the long term. As we continue
+              to expand, we plan on hosting events across the world and doing
+              promotions with massive celebrities. You will be part of an
+              exclusive club (or should we say University).
+            </p>
+          </DetailsOnly>
+        </CompleteMap>
+        <CompleteMap>
+          <div className={styles.lineUpContentCircle}>
+            <div className={styles.lineUpContentCircleInner}></div>
+          </div>
+          <DetailsOnly>
+            <h2>04</h2>
+            <h3>Metaversity Merch and Private Party</h3>
+            <p>
+              We will release our first merch collection of the Metaversity
+              Monkeys that will be available only for the holder. To celebrate
+              the achievement of our goals, we are going to organize a private
+              party for our holders, where the community chooses the location.
+            </p>
+          </DetailsOnly>
+        </CompleteMap>
+        <CompleteMap>
+          <div className={styles.lineUpContentCircle}>
+            <div className={styles.lineUpContentCircleInner}></div>
+          </div>
+          <DetailsOnly>
+            <h2>05</h2>
+            <h3>MetaverCity</h3>
+            <p>
+              We have already purchased a small plot of land in Decentraland for
+              our community. As our community continues to grow, we will expand
+              our virtual real estate in various metaverses and build the
+              MetaverCity. Eventually we will begin hosting events in the
+              Metaverse.
+            </p>
+          </DetailsOnly>
+        </CompleteMap>
+      </TextImage>
     </Wrap>
   );
 }
