@@ -11,16 +11,8 @@ function NewSection2({
   paragraph2,
 }) {
   return (
-    <Wrap bgImage={backgroundImg} colory={color}>
-      <div
-        style={{
-          width: "80vw",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          margin: "0 auto",
-        }}
-      >
+    <Wrap id="about-us" bgImage={backgroundImg} colory={color}>
+      <Container>
         <TextImage>
           <Fade bottom>
             <h1>
@@ -70,10 +62,10 @@ function NewSection2({
         </TextImage>
         <SideImage>
           <Fade right>
-            <img src="/images/about-image.png" />
+            <img src="/images/hero-invert.png" />
           </Fade>
         </SideImage>
-      </div>
+      </Container>
     </Wrap>
   );
 }
@@ -81,15 +73,28 @@ function NewSection2({
 export default NewSection2;
 
 const Wrap = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-  background-size: 100%;
+  background-size: cover;
   background-position: 50% 11%;
   background-repeat: no-repeat;
   display: flex;
-  background-image: url("/images/bg-banner-v12.jpg");
+  background-image: url("/images/bg4.jpg");
   position: relative;
   padding: 40px 0;
+  @media (min-width: 960px) {
+    min-height: 100vh;
+  }
+`;
+
+const Container = styled.div`
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  @media (max-width: 1100px) {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
 `;
 
 const TextImage = styled.div`
@@ -114,6 +119,9 @@ const TextImage = styled.div`
   p {
     font-size: 18px;
   }
+  @media (max-width: 1100px) {
+    width: 90%;
+  }
 `;
 
 const SideImage = styled.div`
@@ -121,5 +129,9 @@ const SideImage = styled.div`
   height: 650px;
   img {
     width: 100%;
+  }
+  @media (max-width: 1100px) {
+    width: 400px;
+    height: 400px;
   }
 `;

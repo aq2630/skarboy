@@ -12,7 +12,7 @@ function NewSection4({
   paragraph2,
 }) {
   return (
-    <Wrap bgImage={backgroundImg} colory={color}>
+    <Wrap id="faqs" bgImage={backgroundImg} colory={color}>
       <Fade bottom>
         <Heading>
           <Text1>FREQUENTLY</Text1>
@@ -90,19 +90,22 @@ function NewSection4({
 export default NewSection4;
 
 const Wrap = styled.div`
-  width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #25252d;
+  padding: 40px 30px;
+  @media (min-width: 960px) {
+    min-height: 100vh;
+  }
 `;
 
 // #25252D
 
 const Heading = styled.div`
   margin: 0 0 40px 0;
+  text-align: center;
 `;
 
 const Text1 = styled.h1`
@@ -119,16 +122,26 @@ const Text2 = styled.h1`
   font-size: 60px;
 `;
 const Questions = styled.div`
-  width: 80vw;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  // flex-direction: column;
+  // @media (min-width: 960px) {
+  //   flex-direction: row;
+  // }
 `;
 
-const Quest = styled.div` 
-  width: 50%;
+const Quest = styled.div`
+  width: 100%;
   margin: 10px;
-  }
 `;
-
 const List = styled.div`
+  width: 100%;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  @media (min-width: 960px) {
+    flex-direction: row;
+    width: 100%;
+  }
 `;

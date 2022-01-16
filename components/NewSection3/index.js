@@ -11,7 +11,7 @@ function NewSection3({
   paragraph2,
 }) {
   return (
-    <Wrap bgImage={backgroundImg} colory={color}>
+    <Wrap id="membership" bgImage={backgroundImg} colory={color}>
       <Fade bottom>
         <TextImage>
           <h1>
@@ -61,10 +61,8 @@ function NewSection3({
 export default NewSection3;
 
 const Wrap = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-  background-size: 100%;
-  background-position: 50% 22%;
+  background-size: cover;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -72,6 +70,9 @@ const Wrap = styled.div`
   background-image: url("/images/bg-banner-v12.jpg");
   position: relative;
   padding: 40px 0;
+  @media (min-width: 960px) {
+    min-height: 100vh;
+  }
 `;
 
 const TextImage = styled.div`
@@ -79,7 +80,7 @@ const TextImage = styled.div`
   color: white;
   width: 80vw;
   h1 {
-    font-size: 65px;
+    font-size: 48px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -87,12 +88,18 @@ const TextImage = styled.div`
     span {
       color: #3a8bae;
     }
+    @media (min-width: 960px) {
+      font-size: 65px;
+    }
   }
   h3 {
     font-size: 28px;
-    margin: 50px;
+    margin: 20px;
     padding: 0;
     text-align: center;
+    @media (min-width: 960px) {
+      margin: 50px;
+    }
   }
   p {
     font-size: 18px;

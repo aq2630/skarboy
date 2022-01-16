@@ -11,11 +11,11 @@ function NewSection1({
   paragraph2,
 }) {
   return (
-    <Wrap bgImage={backgroundImg} colory={color}>
+    <Wrap id="home" bgImage={backgroundImg} colory={color}>
       <Fade bottom>
         <ItemText>
           <SideImage>
-            <img src="/images/man-v1.png" />
+            <img src="/images/hero-main.png" />
           </SideImage>
           <TextImage>
             <img src="/images/text-v3.png" />
@@ -30,19 +30,21 @@ function NewSection1({
 export default NewSection1;
 
 const Wrap = styled.div`
-  width: 100vw;
-  min-height: 100vh;
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-image: url("/images/bg-banner-v12.jpg");
+  background-image: url("/images/bg2.jpg");
+  background-size: cover;
   position: relative;
   @media (max-width: 1100px) {
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
+  }
+  @media (min-width: 960px) {
+    min-height: 100vh;
   }
 `;
 
@@ -114,11 +116,6 @@ const SideImage = styled.div`
   left: 0;
   img {
     width: 100%;
-  }
-  @media (max-width: 1100px) {
-    position: unset;
-    width: 400px;
-    height: 400px;
   }
   @media (max-width: 1100px) {
     position: unset;

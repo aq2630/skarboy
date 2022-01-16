@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import Head from "next/head";
 import {
+  Header,
   NewSection1,
   NewSection2,
   NewSection3,
   NewSection4,
+  NewSection5,
   TeamCarousel,
 } from "../components";
 
@@ -25,11 +27,13 @@ const Home = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
+      <Header />
       <NewSection1 />
       <NewSection2 />
       <NewSection3 />
-      <NewSection4 />
+      <NewSection5 />
       <TeamCarousel />
+      <NewSection4 />
     </Container>
   );
 };
