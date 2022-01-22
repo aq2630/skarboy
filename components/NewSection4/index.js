@@ -92,7 +92,7 @@ const Wrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #686bfa;
+  // background-color: #686bfa;
   padding: 40px 30px;
   @media (min-width: 960px) {
     min-height: 100vh;

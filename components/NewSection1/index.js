@@ -35,7 +35,7 @@ const Wrap = styled.div`
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  background-image: url("/images/first-bg-3.jpeg");
+  // background-image: url("/images/first-bg-3.jpeg");
   background-size: cover;
   position: relative;
   @media (max-width: 1100px) {

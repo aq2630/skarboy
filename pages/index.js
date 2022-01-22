@@ -43,4 +43,9 @@ export default Home;
 const Container = styled.div`
   height: 100vh;
   overflow-x: hidden;
+  background-image: url("/images/main-bg.jpeg");
+  background-attachment: local;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 `;
