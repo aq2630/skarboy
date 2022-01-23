@@ -4,7 +4,12 @@ import Fade from "react-reveal/Fade";
 
 function RoadMap({ backgroundImg, color, imagey }) {
   return (
-    <Wrap bgImage={backgroundImg} checkImage={imagey} colory={color}>
+    <Wrap
+      id="roadmap"
+      bgImage={backgroundImg}
+      checkImage={imagey}
+      colory={color}
+    >
       <Fade bottom>
         <ItemText>
           <h1 data-text="Road Map"> Road Map </h1>
