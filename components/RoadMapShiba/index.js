@@ -126,7 +126,7 @@ const StraightLine = styled.div`
   transform: translateX(-50%);
   width: 5px;
   height: 100%;
-  background: #f57305;
+  background: #eb75f2;
   @media (max-width: 960px) {
     display: none;
   }
@@ -153,7 +153,7 @@ const SingleSection = styled.div`
     display: block;
     width: 20px;
     height: 20px;
-    background: #fff;
+    background: #36a2aa;
     border-radius: 100%;
     flex-shrink: 0;
     box-shadow: 0 0 9px 9px rgb(0 0 0 / 70%);
