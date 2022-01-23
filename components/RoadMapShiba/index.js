@@ -12,8 +12,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
     >
       <Fade bottom>
         <ItemText>
-          <h1 data-text="Road Map"> Road Map </h1>
-          <p>Our plans moving forward into 2022.</p>
+          <h2 className="mainTitle"> Road Map </h2>
         </ItemText>
         <SectionWrapper>
           <StraightLine></StraightLine>
@@ -101,46 +100,13 @@ const ItemText = styled.div`
   color: white;
   text-align: center;
   padding: 120px 0 0 0;
-
-  h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 80px;
-    display: inline;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-    transition: 0.5s;
-    position: relative;
-  }
-  h1:before,
-  h1:after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-  }
-  h1:hover:before {
-    color: rgb(187, 0, 0);
-    z-index: 1;
-    -webkit-text-stroke: 1px black;
-    transform: translate(10px, -10px);
-  }
-  h1:hover:after {
-    color: rgb(119, 239, 255);
-    z-index: 2;
-    -webkit-text-stroke: 1px black;
-    transform: translate(20px, -20px);
-  }
-  h1:hover {
-    color: white;
-    -webkit-text-stroke: 1px black;
-    transition: 0.5s;
-  }
-  p {
-    font-size: 20px;
-    margin: 20px;
-    padding: 0;
+  h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    @media (max-width: 960px) {
+      font-size: 42px;
+    }
   }
 `;
 const SectionWrapper = styled.div`
