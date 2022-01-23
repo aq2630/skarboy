@@ -6,7 +6,6 @@ import NewSection4 from "./NewSection4";
 import NewSection5 from "./NewSection5";
 import TeamCarousel from "./TeamCarousel";
 import TeamGrid from "./TeamGrid";
-import RoadMapNew from "./RoadMapNew";
 import RoadMapShiba from "./RoadMapShiba";
 
 export {
@@ -18,6 +17,5 @@ export {
   NewSection5,
   TeamCarousel,
   TeamGrid,
-  RoadMapNew,
   RoadMapShiba,
 };
