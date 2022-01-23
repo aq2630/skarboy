@@ -1,16 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Fade from "react-reveal/Fade";
 import Accordion from "../Accordion";
 
-function NewSection4({
-  title,
-  description,
-  backgroundImg,
-  color,
-  paragraph,
-  paragraph2,
-}) {
+function NewSection4({ backgroundImg, color }) {
   return (
     <Wrap id="faqs" bgImage={backgroundImg} colory={color}>
       <Heading>
@@ -112,12 +104,18 @@ const Text1 = styled.h1`
   color: transparent;
   -webkit-text-stroke: 1px white;
   font-size: 60px;
+  @media (max-width: 600px) {
+    font-size: 42px;
+  }
 `;
 const Text2 = styled.h1`
   margin: 0;
   padding: 0;
   color: white;
   font-size: 60px;
+  @media (max-width: 600px) {
+    font-size: 42px;
+  }
 `;
 const Questions = styled.div`
   width: 100%;

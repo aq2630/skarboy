@@ -59,7 +59,11 @@ function Header() {
           {sections &&
             sections.map((section, index) => (
               <li key={`navItem-${index}`}>
-                <a key={index} href={`#${section.id}`}>
+                <a
+                  key={index}
+                  href={`#${section.id}`}
+                  onClick={() => setBurgerStatus(false)}
+                >
                   {section.name}
                 </a>
               </li>

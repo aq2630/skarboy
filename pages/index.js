@@ -9,6 +9,8 @@ import {
   NewSection4,
   NewSection5,
   TeamCarousel,
+  TeamGrid,
+  RoadMapShiba,
 } from "../components";
 
 const Home = () => {
@@ -31,8 +33,10 @@ const Home = () => {
       <NewSection1 />
       <NewSection2 />
       <NewSection3 />
-      <NewSection5 />
-      <TeamCarousel />
+      {/* <NewSection5 /> */}
+      <RoadMapShiba />
+      <TeamGrid />
+      {/* <TeamCarousel /> */}
       <NewSection4 />
     </Container>
   );
