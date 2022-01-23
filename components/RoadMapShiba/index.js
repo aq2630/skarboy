@@ -171,6 +171,10 @@ const SingleSection = styled.div`
       text-transform: uppercase;
       margin-bottom: 20px;
     }
+    span.description {
+      font-size: 16px;
+      font-weight: 400;
+    }
   }
   @media (max-width: 960px) {
     flex-direction: column;
