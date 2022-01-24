@@ -12,48 +12,46 @@ function NewSection3({
 }) {
   return (
     <Wrap id="membership" bgImage={backgroundImg} colory={color}>
-      <Fade bottom>
-        <TextImage>
-          <h1>
-            Become a Part of the <span>Community</span>
-          </h1>
-          <h3>
-            The Metaversity: A community of like-minded side hustlers who want
-            to break the 9-5 cycle.
-          </h3>
-          <p>
-            This project was curated and driven solely off of a
-            “community-first” mindset. To help expand our network and
-            incentivize access, a concept of creating a high-utility project
-            where users indulge inside the MetaverCity was born.
-            <br />
-            <br />
-            The upbringing of the Metaversity Monkeys has brought together
-            experienced entrepreneurs, renowned celebrities, marketing geniuses,
-            and white-glove 3-D artists at one table.
-            <br />
-            <br />
-            In time, you will be able to snag one of these monkeys for your own
-            collection. A unique 1 of 9,876 monkeys can be yours.
-            <br />
-            <br />
-            Joining the crew of early supporters will yield lavish returns.
-            <br />
-            <br />
-            Through meticulously designed 3D artwork, our artists have perfected
-            the traits and look of the New World Monkeys. In the Metaverse,
-            these monkeys will be portrayed as the most alpha in their class.
-            <br />
-            <br />
-            With the introduction of these monkeys to the Metaverse, the whole
-            digital jungle will be changed forever.
-            <br />
-            <br />
-            For now, the team is working day and night to get this project to
-            our full satisfaction.
-          </p>
-        </TextImage>
-      </Fade>
+      <TextImage>
+        <h1>
+          Become a Part of the <span>Community</span>
+        </h1>
+        <h3>
+          The Metaversity: A community of like-minded side hustlers who want to
+          break the 9-5 cycle.
+        </h3>
+        <p>
+          This project was curated and driven solely off of a “community-first”
+          mindset. To help expand our network and incentivize access, a concept
+          of creating a high-utility project where users indulge inside the
+          MetaverCity was born.
+          <br />
+          <br />
+          The upbringing of the Metaversity Monkeys has brought together
+          experienced entrepreneurs, renowned celebrities, marketing geniuses,
+          and white-glove 3-D artists at one table.
+          <br />
+          <br />
+          In time, you will be able to snag one of these monkeys for your own
+          collection. A unique 1 of 9,876 monkeys can be yours.
+          <br />
+          <br />
+          Joining the crew of early supporters will yield lavish returns.
+          <br />
+          <br />
+          Through meticulously designed 3D artwork, our artists have perfected
+          the traits and look of the New World Monkeys. In the Metaverse, these
+          monkeys will be portrayed as the most alpha in their class.
+          <br />
+          <br />
+          With the introduction of these monkeys to the Metaverse, the whole
+          digital jungle will be changed forever.
+          <br />
+          <br />
+          For now, the team is working day and night to get this project to our
+          full satisfaction.
+        </p>
+      </TextImage>
     </Wrap>
   );
 }

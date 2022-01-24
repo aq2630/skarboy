@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import Link from "next/link";
 
 function Header() {
   const [burgerStatus, setBurgerStatus] = useState(false);
@@ -40,9 +41,15 @@ function Header() {
         <Menu>
           {sections &&
             sections.map((section, index) => (
-              <a key={`menuItem-${index}`} href={`#${section.id}`}>
+              <Link
+                key={`menuItem-${index}`}
+                href={`#${section.id}`}
+                smooth={true}
+                duration={500}
+                spy={true}
+              >
                 {section.name}
-              </a>
+              </Link>
             ))}
         </Menu>
         <RightMenu onClick={() => setBurgerStatus(true)}>
@@ -59,13 +66,16 @@ function Header() {
           {sections &&
             sections.map((section, index) => (
               <li key={`navItem-${index}`}>
-                <a
-                  key={index}
+                <Link
+                  key={`navLink-${index}`}
                   href={`#${section.id}`}
                   onClick={() => setBurgerStatus(false)}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
                 >
                   {section.name}
-                </a>
+                </Link>
               </li>
             ))}
         </BurgerNav>

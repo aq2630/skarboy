@@ -11,41 +11,39 @@ function Section12({ backgroundImg, color, imagey, textColor }) {
       textColor={textColor}
       id="team"
     >
-      <Fade bottom>
-        <ItemText>
-          <h3>Meet the team</h3>
-        </ItemText>
-        <ImageArea>
-          <ImageSection>
-            <Image src="/images/team5.png" />
-            <TextArea>
-              <h2>Srikar</h2>
-              <p>Co-Founder</p>
-            </TextArea>
-          </ImageSection>
-          <ImageSection>
-            <Image src="/images/team3.jpeg" />
-            <TextArea>
-              <h2>Sai</h2>
-              <p>Co-Founder</p>
-            </TextArea>
-          </ImageSection>
-          <ImageSection>
-            <Image src="/images/team5.png" />
-            <TextArea>
-              <h2>Harsha</h2>
-              <p>Community Manager</p>
-            </TextArea>
-          </ImageSection>
-          <ImageSection>
-            <Image src="/images/team3.jpeg" />
-            <TextArea>
-              <h2>Simon Pompan</h2>
-              <p>Advisor</p>
-            </TextArea>
-          </ImageSection>
-        </ImageArea>
-      </Fade>
+      <ItemText>
+        <h3>Meet the team</h3>
+      </ItemText>
+      <ImageArea>
+        <ImageSection>
+          <Image src="/images/team5.png" />
+          <TextArea>
+            <h2>Srikar</h2>
+            <p>Co-Founder</p>
+          </TextArea>
+        </ImageSection>
+        <ImageSection>
+          <Image src="/images/team3.jpeg" />
+          <TextArea>
+            <h2>Sai</h2>
+            <p>Co-Founder</p>
+          </TextArea>
+        </ImageSection>
+        <ImageSection>
+          <Image src="/images/team5.png" />
+          <TextArea>
+            <h2>Harsha</h2>
+            <p>Community Manager</p>
+          </TextArea>
+        </ImageSection>
+        <ImageSection>
+          <Image src="/images/team3.jpeg" />
+          <TextArea>
+            <h2>Simon Pompan</h2>
+            <p>Advisor</p>
+          </TextArea>
+        </ImageSection>
+      </ImageArea>
     </Wrap>
   );
 }

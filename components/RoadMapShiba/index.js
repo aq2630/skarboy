@@ -10,81 +10,112 @@ function RoadMap({ backgroundImg, color, imagey }) {
       checkImage={imagey}
       colory={color}
     >
-      <Fade bottom>
-        <ItemText>
-          <h2 className="mainTitle"> Road Map </h2>
-        </ItemText>
-        <SectionWrapper>
-          <StraightLine></StraightLine>
-          <AllSections>
-            <SingleSection>
-              <h2>25%</h2>
-              <span className="pointer"></span>
-              <h4>
-                <strong className="title">Monkeys are Born</strong>
-                <span className="description">
-                  The community always comes first. The goal with this project
-                  is to provide as much value as possible so that you get the
-                  greatest return on your investment. We will be announcing the
-                  drop release date once we are fully satisfied with all parts
-                  of the project. We want to make sure we provide as much as we
-                  can to the community even before our release. Once we are
-                  satisfied, the beautiful 3D Metaversity Monkeys will come to
-                  life.
-                </span>
-              </h4>
-            </SingleSection>
-            <SingleSection>
-              <h2>50%</h2>
-              <span className="pointer"></span>
-              <h4>
-                <strong className="title">Metaverse University</strong>
-                <span className="description">
-                  We are committed to helping the community to the fullest. We
-                  will be bringing together a community of hustlers through
-                  various media. This will be offered exclusively to The
-                  Metaverse University students where each NFT holder will gain
-                  full access to private seminars, events, courses, mentorship
-                  and even university parties!
-                </span>
-              </h4>
-            </SingleSection>
-            <SingleSection>
-              <h2>75%</h2>
-              <span className="pointer"></span>
-              <h4>
-                <strong className="title">Monkey Madness</strong>
-                <span className="description">
-                  Our goal is to show that an investment in a monkey will be
-                  extremely profitable for you even in the long term. As we
-                  continue to expand, we plan on hosting events across the world
-                  and doing promotions with massive celebrities. You will be
-                  part of an exclusive club (or should we say University).
-                  Metaversity Merch and Private Party: We will release our first
-                  merch collection of the Metaversity Monkeys that will be
-                  available only for the holder. To celebrate the achievement of
-                  our goals, we are going to organize a private party for our
-                  holders, where the community chooses the location.
-                </span>
-              </h4>
-            </SingleSection>
-            <SingleSection>
-              <h2>100%</h2>
-              <span className="pointer"></span>
-              <h4>
-                <strong className="title">MetaverCity</strong>
-                <span className="description">
-                  We have already purchased a small plot of land in Decentraland
-                  for our community. As our community continues to grow, we will
-                  expand our virtual real estate in various metaverses and build
-                  the MetaverCity. Eventually we will begin hosting events in
-                  the Metaverse.
-                </span>
-              </h4>
-            </SingleSection>
-          </AllSections>
-        </SectionWrapper>
-      </Fade>
+      <ItemText>
+        <h2 className="mainTitle">ROADMAP</h2>
+      </ItemText>
+      <SectionWrapper>
+        <StraightLine></StraightLine>
+        <AllSections>
+          <SingleSection>
+            <h2>20%</h2>
+            <span className="pointer"></span>
+            <h4>
+              <strong className="title">Genesis: Monkeys are Born</strong>
+              <span className="description">
+                The monkeys are spawned through the form of 9876 3D Metaversity
+                Monkey NFTs. They are equipped with several unique traits that
+                give them an appealing look. We will be announcing the drop
+                release date once we are fully satisfied with all parts of the
+                project. We want to make sure we provide as much as we can to
+                the community even before our release. The community always
+                comes first. The goal with this project is to provide as much
+                value as possible so that you get the greatest return on your
+                investment. Once we are fully satisfied, 9876 3D Metaversity
+                Monkeys will come to life. The monkeys will be the very first
+                class to enroll in The Metaverse University.
+                <br />
+                When your unique Metaversity Monkey is released, you will be
+                assigned one of several classes - you may even be assigned
+                multiple. Each class you’re assigned to will provide you with
+                several perks related to your subject.
+              </span>
+            </h4>
+          </SingleSection>
+          <SingleSection>
+            <h2>40%</h2>
+            <span className="pointer"></span>
+            <h4>
+              <strong className="title">Phase I: Metaverse University</strong>
+              <span className="description">
+                Once all monkeys are claimed, that’s when they will first step
+                foot into their new University: The Metaversity. This is where
+                all monkeys will get a chance to make friends and build
+                connections. Once they have settled down, their classes will
+                begin for the semester.
+                <br />
+                Your unique Metaversity Monkey will grant you access to
+                exclusive courses based on the class trait(s) you are assigned.
+                The web3 enabled Metaversity website will use your NFT ownership
+                to unlock access to these courses. All Metaversity Monkey
+                holders will also gain access to several exclusive events that
+                will be revealed in the future!
+              </span>
+            </h4>
+          </SingleSection>
+          <SingleSection>
+            <h2>60%</h2>
+            <span className="pointer"></span>
+            <h4>
+              <strong className="title">Phase II: Monkey Mayhem</strong>
+              <span className="description">
+                An investment in a Metaversity Monkey will be extremely
+                profitable for you even in the long term. We plan on hosting
+                events across the world and doing promotions with massive
+                celebrities. You will be part of an exclusive club (or should we
+                say University). We will soon release our first merch collection
+                for The Metaversity that will be free for monkey holders with
+                the merch trait. As we continue to expand, we plan to host many
+                more events around the world and lots of virtual events as well.
+              </span>
+            </h4>
+          </SingleSection>
+          <SingleSection>
+            <h2>80%</h2>
+            <span className="pointer"></span>
+            <h4>
+              <strong className="title">Phase III: Monkey business</strong>
+              <span className="description">
+                As The Metaversity gains a lot of popularity, new users will
+                want to take part of the project and own a Metaversity Monkey.
+                However, not everyone will be able to afford one. Therefore, we
+                will be creating a staking system where Monkey holders can stake
+                their NFT and allow other users to borrow access to our side
+                hustle courses and exclusive benefits. They will rent a
+                Metaversity Monkey with our $MVST token and pay for the time
+                that it is rented. This rent will be pooled together and
+                redistributed amongst the staked monkey owners, allowing them to
+                earn passive income.
+              </span>
+            </h4>
+          </SingleSection>
+          <SingleSection>
+            <h2>100%</h2>
+            <span className="pointer"></span>
+            <h4>
+              <strong className="title">Phase IV: MetaverCity</strong>
+              <span className="description">
+                We have already purchased a plot of land in Decentraland to
+                build the first Metaversity campus. As our community continues
+                to grow, we will expand our virtual real estate in various
+                metaverse realms and build the MetaverCity. Eventually we will
+                begin hosting events in the Metaverse. Several campuses will
+                exist across the Metaverse as we grow into an international
+                powerhouse in the field of side hustle education.
+              </span>
+            </h4>
+          </SingleSection>
+        </AllSections>
+      </SectionWrapper>
     </Wrap>
   );
 }
@@ -99,7 +130,7 @@ const Wrap = styled.div`
 const ItemText = styled.div`
   color: white;
   text-align: center;
-  padding: 120px 0 0 0;
+  padding: 40px 0 0 0;
   h2 {
     font-size: 60px;
     font-weight: 900;
@@ -174,6 +205,21 @@ const SingleSection = styled.div`
     span.description {
       font-size: 16px;
       font-weight: 400;
+    }
+  }
+  @media (min-width: 960px) {
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+
+      h4 {
+        -webkit-margin-start: 0;
+        margin-inline-start: 0;
+        -webkit-margin-end: auto;
+        margin-inline-end: auto;
+      }
+      h2 {
+        text-align: left;
+      }
     }
   }
   @media (max-width: 960px) {

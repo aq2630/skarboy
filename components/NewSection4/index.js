@@ -18,6 +18,8 @@ function NewSection4({ backgroundImg, color }) {
               we release our beautiful 3D Metaversity Monkeys.
             </Accordion>
           </Quest>
+        </List>
+        <List>
           <Quest>
             <Accordion title="Why should I join the Metaversity?">
               Our goal is to create a loving community of side hustlers who want
@@ -34,6 +36,8 @@ function NewSection4({ backgroundImg, color }) {
               most prestigious in their class in the Metaverse.
             </Accordion>
           </Quest>
+        </List>
+        <List>
           <Quest>
             <Accordion title="Where can I buy a Metaversity Monkey? ">
               You will be able to purchase our Metaversity Monkey NFT’s on
@@ -52,6 +56,8 @@ function NewSection4({ backgroundImg, color }) {
               https://discord.gg/agb7A4hdDY
             </Accordion>
           </Quest>
+        </List>
+        <List>
           <Quest>
             <Accordion title="Will it be a worthwhile investment to purchase a Metaversity Monkey? ">
               Purchasing a Metaversity Monkey provides you with a lucrative
