@@ -11,6 +11,7 @@ import {
   TeamCarousel,
   TeamGrid,
   RoadMapShiba,
+  TeamGridMeta,
 } from "../components";
 
 const Home = () => {
@@ -35,7 +36,8 @@ const Home = () => {
       <NewSection3 />
       {/* <NewSection5 /> */}
       <RoadMapShiba />
-      <TeamGrid />
+      {/* <TeamGrid /> */}
+      <TeamGridMeta />
       {/* <TeamCarousel /> */}
       <NewSection4 />
     </Container>

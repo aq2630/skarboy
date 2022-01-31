@@ -7,6 +7,7 @@ import NewSection5 from "./NewSection5";
 import TeamCarousel from "./TeamCarousel";
 import TeamGrid from "./TeamGrid";
 import RoadMapShiba from "./RoadMapShiba";
+import TeamGridMeta from "./TeamGridMeta";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   TeamCarousel,
   TeamGrid,
   RoadMapShiba,
+  TeamGridMeta,
 };
