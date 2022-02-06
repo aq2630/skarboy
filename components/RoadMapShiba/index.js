@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
+import { useOnScreen } from "../../utils/dom";
 import Fade from "react-reveal/Fade";
 
 function RoadMap({ backgroundImg, color, imagey }) {
+  const singleSection1 = useRef(null);
+  const singleSection2 = useRef(null);
+  const singleSection3 = useRef(null);
+  const singleSection4 = useRef(null);
+  const singleSection5 = useRef(null);
+  const section1Visible = useOnScreen(singleSection1);
+  const section2Visible = useOnScreen(singleSection2);
+  const section3Visible = useOnScreen(singleSection3);
+  const section4Visible = useOnScreen(singleSection4);
+  const section5Visible = useOnScreen(singleSection5);
+
+  console.log(section1Visible);
   return (
     <Wrap
       id="roadmap"
@@ -16,7 +29,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
       <SectionWrapper>
         <StraightLine></StraightLine>
         <AllSections>
-          <SingleSection>
+          <SingleSection isVisible={section1Visible} ref={singleSection1}>
             <h2>20%</h2>
             <span className="pointer"></span>
             <h4>
@@ -41,7 +54,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
               </span>
             </h4>
           </SingleSection>
-          <SingleSection>
+          <SingleSection isVisible={section2Visible} ref={singleSection2}>
             <h2>40%</h2>
             <span className="pointer"></span>
             <h4>
@@ -62,7 +75,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
               </span>
             </h4>
           </SingleSection>
-          <SingleSection>
+          <SingleSection isVisible={section3Visible} ref={singleSection3}>
             <h2>60%</h2>
             <span className="pointer"></span>
             <h4>
@@ -79,7 +92,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
               </span>
             </h4>
           </SingleSection>
-          <SingleSection>
+          <SingleSection isVisible={section4Visible} ref={singleSection4}>
             <h2>80%</h2>
             <span className="pointer"></span>
             <h4>
@@ -98,7 +111,7 @@ function RoadMap({ backgroundImg, color, imagey }) {
               </span>
             </h4>
           </SingleSection>
-          <SingleSection>
+          <SingleSection isVisible={section5Visible} ref={singleSection5}>
             <h2>100%</h2>
             <span className="pointer"></span>
             <h4>
@@ -168,6 +181,8 @@ const SingleSection = styled.div`
   align-items: center;
   flex-direction: row;
   -webkit-margin-after: 120px;
+  ${({ isVisible }) => (isVisible ? "opacity: 1;" : "opacity: 0.2;")}
+  transition: opacity 0.5s ease-in-out;
   margin-block-end: 120px;
   h2 {
     display: block;
