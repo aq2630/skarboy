@@ -15,7 +15,7 @@ function NewSection1({
       <Fade bottom>
         <ItemText>
           <SideImage>
-            <img src="/images/hero-main.png" />
+            <img src="/images/newMonkey1.jpeg" />
           </SideImage>
           <TextImage>
             <img src="/images/text-v3.png" />
@@ -124,6 +124,7 @@ const ForButton = styled.div`
 
 const SideImage = styled.div`
   position: relative;
+  width: 50%;
   bottom: 0;
   left: 0;
   img {

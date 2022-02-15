@@ -60,7 +60,7 @@ function NewSection2({
         </TextImage>
         <SideImage>
           <Fade right>
-            <img src="/images/hero-invert.png" />
+            <img src="/images/newMonkey2.jpeg" />
           </Fade>
         </SideImage>
       </Container>
@@ -123,8 +123,8 @@ const TextImage = styled.div`
 `;
 
 const SideImage = styled.div`
-  width: 650px;
-  height: 650px;
+  width: 50%;
+  transform: scaleX(-1);
   img {
     width: 100%;
   }
